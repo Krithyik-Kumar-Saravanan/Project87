@@ -32,27 +32,32 @@ console.log(keyPressed);
 	if(keyPressed == '82')
 	{
 		new_image('rr1.png');
+		block_x = 10;
 		console.log("r");
 	}
 	if(keyPressed == '71')
 	{
 		new_image('gr.png');
+		block_x = 250;
 		console.log("g");
 	}
 	
 	if(keyPressed == '89')
 	{
 		new_image('yr.png');
+		block_x = 400;
 		console.log("y");
 	}
 	if(keyPressed == '80')
 	{
 		new_image('pr.png');
+		block_x = 650;
 		console.log("p");
 	}
 	if(keyPressed == '66')
 	{
 		new_image('br.png');
+		block_x = 690;
 		console.log("b");
 	}
 	
